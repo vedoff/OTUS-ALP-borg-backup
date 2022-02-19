@@ -1,0 +1,6 @@
+---
+- hosts: client
+  become:
+    true
+  roles:
+    - configure-borg-backup-client

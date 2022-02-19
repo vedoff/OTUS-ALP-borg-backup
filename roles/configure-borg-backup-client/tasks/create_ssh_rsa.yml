@@ -1,0 +1,9 @@
+---
+# Генерим ssh key
+- openssh_keypair:
+    path: /home/vagrant/.ssh/borg_key
+    size: 2048
+
+# - name: copy ssh_key_rsa
+#   command: 'ssh-copy-id -i /home/vagrant/.ssh/borg_ssh_rsa.pub vagrant@192.168.11.160'
+  
