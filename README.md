@@ -1,5 +1,5 @@
-# borg-backup
-Настройка borg backup server client, а так же автоматизация.
+# BorgBackup
+Настройка BorgBackup server client, а так же автоматизация.
 ## Что такое BorgBackup
 BorgBackup это дедуплицирующая программа для резервного копирования. \
 Опционально доступно сжатие и шифрование данных. \
