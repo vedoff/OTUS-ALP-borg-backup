@@ -1,0 +1,20 @@
+---
+## Конфигурим borg_service
+- name: configure borg-backup.service
+  copy:
+    src: borg-backup.service
+    dest: /etc/systemd/system/
+    owner: "root"
+    group: "root"
+    mode: '0644'
+
+## Конфигурим borg_service
+- name: configure borg-backup.timer
+  copy:
+    src: borg-backup.timer
+    dest: /etc/systemd/system/
+    owner: "root"
+    group: "root"
+    mode: '0644'
+  notify:
+    - borg-timer start service

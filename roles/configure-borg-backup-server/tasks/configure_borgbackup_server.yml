@@ -36,10 +36,10 @@
     dest: /tmp/
     owner: "vagrant"
     group: "vagrant"
-    mode: '0711'
+    mode: '0700'
 
 ## Выполнение скрипта: Добавление и монтирование диска в /var/backup
-- name: add hdd mount /var/backup
+- name: add hdd mount /var/Backuprepo
   command: /tmp/add-hdd.sh
 
 ## Создание директории backup 
