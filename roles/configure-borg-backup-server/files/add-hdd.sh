@@ -1,5 +1,5 @@
 #!/bin/bash
-
+## Проверяем какой диск свободен
 hdd () {
     lsblk | grep 2G | awk '{print $1}'
 }
