@@ -74,7 +74,7 @@ BorgBackup это дедуплицирующая программа для ре�
 
 Автоматизируем создание бэкапов с помощью systemd \
 Создаем сервис и таймер в каталоге `/etc/systemd/system/` \
-[file]()
+[file](https://github.com/vedoff/borg-backup/tree/main/roles/configure-borg-backup-client/files)
 
 
 
