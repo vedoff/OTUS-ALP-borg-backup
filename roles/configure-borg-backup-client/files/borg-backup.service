@@ -4,7 +4,7 @@ Description=Borg Backup
 Type=oneshot
 ## Добавляем переменные окружения
 # Парольная фраза
-Environment="BORG_PASSPHRASE=1qaz@WSX"
+Environment="BORG_PASSPHRASE=123456"
 # Репозиторий
 Environment="REPO=borg@192.168.11.160:/var/Backuprepo/backup/"
 # Что бэкапим
